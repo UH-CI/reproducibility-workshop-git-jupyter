@@ -2,7 +2,7 @@
 
 <h2>Date: March 5th, 2021 2pm-4pm HST</h2>
 <h2>Location: Virtual</h2>
-<h3>Presenters: Sean Cleveland - UH ITS - Cyberinfrastructure, HI-DSI</h3>
+<h3>Presenters: Sean Cleveland - UH ITS - Cyberinfrastructure, Hawaii Data Science Institute (HI-DSI)</h3>
 <center>
 <img src="https://www.hawaii.edu/wp/wp-content/uploads/2016/06/seal-name@2x.png"/>
 <img src="https://datascience.hawaii.edu/wp-content/uploads/2018/03/logo_5.png"/>
@@ -10,7 +10,7 @@
 
 This FREE workshop is sponsored by the University of Hawai'i Information Technology Service Cyberinfrastructure group and Hawaii Data Science Institute (HI-DSI)
 
-This workshop focuses specifically on introducing the git version control technologies alonw with GitHub(https://github.com), and Jupyter Notebooks (https://jupyter.org) in the context of support reproducible science. We will also introduce Zenodo for dataset/source code pubication - DOI assignment
+This workshop focuses specifically on introducing the git version control technologies alonw with GitHub(https://github.com), and Jupyter Notebooks (https://jupyter.org) in the context of support reproducible science. Sharing Jupyter environments with My Binder(https://mybinder.org/). We will also introduce Zenodo for dataset/source code pubication - DOI assignment
 
 Attendees will learn about how to git tools and jupyter notebooks in a way that documents data analysis and allows other to reproduce results.
 
@@ -21,6 +21,7 @@ Attendees will learn about how to git tools and jupyter notebooks in a way that 
 * Have a basic understanding of git version control 
 * Have a basic understanding of jupyter notebooks
 * Able to create and manage git repositories for scientific analysis.
+* Share Jupyter Notebook environments with MyBinder
 * Able to publish a github repository to Zenodo.
 
 
