@@ -52,7 +52,6 @@ To see how push works we have to commit and push some changes in
 `other_git_workshop`. Do this:
 
   1. Change into the 'other_git_workshop' folder with `cd`
-  1. Open the 'other_git_workshop' folder in Atom
   1. In an editor, add a line to '00_analysis.py' that says 'We got data.'
   1. In your terminal, stage the change to '00_analysis.py' with `git add`
   1. Commit the change to '00_analysis.py' with `git commit` using an informative commit message
@@ -150,7 +149,7 @@ and made new commits locally.
 ### Adding remote commits
 
 1. Change into the 'other_git_workshop' folder with `cd`
-1. In Atom, Change the first line in '00_analysis.py' to say 'We got interesting data.'
+1. In an editor, Change the first line in '00_analysis.py' to say 'We got interesting data.'
 1. In your terminal, stage the change to '00_analysis.py' with `git add`
 1. Commit the change to '00_analysis.py' with `git commit` using an informative
    commit message.
@@ -161,7 +160,7 @@ The push should succeed.
 ### Add local commits
 
 1. Change into the 'git_workshop' folder with `cd`
-1. In Atom, Change the first line in '00_analysis.py' to say 'We got exciting data.'
+1. In an editor, Change the first line in '00_analysis.py' to say 'We got exciting data.'
 1. In your terminal, stage the change to '00_analysis.py' with `git add`
 1. Commit the change to '00_analysis.py' with `git commit` using an informative
    commit message.
