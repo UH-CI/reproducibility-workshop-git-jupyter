@@ -284,7 +284,7 @@ using wildcards, `*`, and short-hands e.g. `.` - This comes in quite handy for
 staging groups of files.
 
 `add` can be used to add stage an existing (tracked) file the repository knows about or an
-entirely new file (untracked) like 'analysis.Rmd' in the previous section. The syntax is the
+entirely new file (untracked) like 'analysis.py' in the previous section. The syntax is the
 same.
 
 ### Stage all files in a single command {.exercise}

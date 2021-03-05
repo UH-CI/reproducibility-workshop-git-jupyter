@@ -53,9 +53,9 @@ To see how push works we have to commit and push some changes in
 
   1. Change into the 'other_git_workshop' folder with `cd`
   1. Open the 'other_git_workshop' folder in Atom
-  1. In Atom, add a line to '00_analysis.Rmd' that says 'We got data.'
-  1. In your terminal, stage the change to '00_analysis.Rmd' with `git add`
-  1. Commit the change to '00_analysis.Rmd' with `git commit` using an informative commit message
+  1. In Atom, add a line to '00_analysis.py' that says 'We got data.'
+  1. In your terminal, stage the change to '00_analysis.py' with `git add`
+  1. Commit the change to '00_analysis.py' with `git commit` using an informative commit message
   1. Push your commit with `git push`
 
 ### Refreshing repository status
@@ -150,9 +150,9 @@ and made new commits locally.
 ### Adding remote commits
 
 1. Change into the 'other_git_workshop' folder with `cd`
-1. In Atom, Change the first line in '00_analysis.Rmd' to say 'We got interesting data.'
-1. In your terminal, stage the change to '00_analysis.Rmd' with `git add`
-1. Commit the change to '00_analysis.Rmd' with `git commit` using an informative
+1. In Atom, Change the first line in '00_analysis.py' to say 'We got interesting data.'
+1. In your terminal, stage the change to '00_analysis.py' with `git add`
+1. Commit the change to '00_analysis.py' with `git commit` using an informative
    commit message.
 1. Push your commit with `git push`
 
@@ -161,9 +161,9 @@ The push should succeed.
 ### Add local commits
 
 1. Change into the 'git_workshop' folder with `cd`
-1. In Atom, Change the first line in '00_analysis.Rmd' to say 'We got exciting data.'
-1. In your terminal, stage the change to '00_analysis.Rmd' with `git add`
-1. Commit the change to '00_analysis.Rmd' with `git commit` using an informative
+1. In Atom, Change the first line in '00_analysis.py' to say 'We got exciting data.'
+1. In your terminal, stage the change to '00_analysis.py' with `git add`
+1. Commit the change to '00_analysis.py' with `git commit` using an informative
    commit message.
 1. Push your commit with `git push`
 

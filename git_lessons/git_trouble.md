@@ -62,11 +62,11 @@ $ git checkout <patial hash> <file path>
 ```
 
 The hashes in your repository are unique so I can't give an example that will
-work for you. But this would restore `00_analysis.Rmd` to its a blank
+work for you. But this would restore `00_analysis.py` to its a blank
 state in my repository:
 
 ```
-$ git checkout 3ff91b 00_analysis.Rmd
+$ git checkout 3ff91b 00_analysis.py
 ```
 
 ### Restoring to a time period ago
@@ -98,8 +98,8 @@ $ git checkout HEAD <file path>
 
 Using the 'git_workshop' repository:
 
-1. Using `git checkout`, Restore 'analysis.Rmd' to the working directory. This
-   is what '00_analysis.Rmd' was called before we changed its name.
+1. Using `git checkout`, Restore 'analysis.py' to the working directory. This
+   is what '00_analysis.py' was called before we changed its name.
 
 
 ## Restoring the entire repository to an earlier version

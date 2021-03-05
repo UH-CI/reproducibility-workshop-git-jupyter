@@ -233,7 +233,7 @@ Some things of note:
   'origin/maser' - no commits have been made.
 * git is suggesting commands we could use from here: `add`, `checkout`, and `commit`.
 * git has detected README.md was modified.
-* git has detected a new untracked files: analysis.Rmd, data.csv.
+* git has detected a new untracked files: analysis.py, data.csv.
 * git has **not** detected our new folder: 'data'. Git tracks changes to files only.
 
 ## Diff - seeing what's changed
@@ -272,12 +272,12 @@ using wildcards, `*`, and short-hands e.g. `.` - This comes in quite handy for
 staging groups of files.
 
 `add` can be used to add stage an existing (tracked) file the repository knows about or an
-entirely new file (untracked) like 'analysis.Rmd' in the previous section. The syntax is the
+entirely new file (untracked) like 'analysis.py' in the previous section. The syntax is the
 same.
 
 ### Stage all files in a single command {.exercise}
 
-1. Using a single `git add` command to stage 'analysis.Rmd', 'README.md', and 'data.csv'.
+1. Using a single `git add` command to stage 'analysis.py', 'README.md', and 'data.csv'.
 
 *Hint:* `git add --help` might have something useful to say regarding the
 `<pathspec>` argument.
@@ -358,7 +358,7 @@ of a git repository. The command will trigger a editor to open with the followin
 #
 # Changes to be committed:
 #       modified:   README.md
-#       new file:   analysis.Rmd
+#       new file:   analysis.py
 #       new file:   data/data.csv
 #
 ```
@@ -481,7 +481,7 @@ To https://www.github.com/scleveland/git_workshop.git
    delta for that commit
 
 ### Your turn: renaming a file {.exercise}
-1. In your 'git_workshop' repository Rename 'analysis.Rmd' to '00_analysis.Rmd'.
+1. In your 'git_workshop' repository Rename 'analysis.py' to '00_analysis.py'.
 1. Run `git status`.
 1. Stage all the changes.
 1. Commit the changes with an informative message.
