@@ -68,8 +68,8 @@ Now let's see what the status of the 'git_workshop' repository is:
 The output will look like this:
 
 ```
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 
 ```
@@ -89,16 +89,16 @@ remote: Counting objects: 100% (5/5), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://www.github.com/milesmcbain/git_workshop
-   3ff91b0..ef6c217  master     -> origin/master
+From https://www.github.com/scleveland/git_workshop
+   3ff91b0..ef6c217  main     -> origin/main
 ```
 
 Now if we call git status we should see:
 
 ```
 $ git status
-On branch master
-Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
   (use "git pull" to update your local branch)
 nothing to commit, working tree clean
 
@@ -122,7 +122,7 @@ pushed in `other_git_workshop`:
 $ git pull
 Updating 3ff91b0..ef6c217
 Fast-forward
- 00_analysis.Rmd | 1 +
+ 00_analysis.py | 1 +
  1 file changed, 1 insertion(+)
 ```
 
@@ -171,9 +171,9 @@ The push fails with:
 
 ```
 $ git push
-To http://www.github.com/milesmcbain/git_workshop
- ! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'http://www.github.com/milesmcbain/git_workshop'
+To http://www.github.com/scleveland/git_workshop
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'http://www.github.com/scleveland/git_workshop'
 hint: Updates were rejected because the remote contains work that you do
 hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
@@ -189,10 +189,10 @@ remote: Counting objects: 100% (5/5), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From http://www.github.com/milesmcbain/git_workshop
-   ef6c217..923cb03  master     -> origin/master
-Auto-merging 00_analysis.Rmd
-CONFLICT (content): Merge conflict in 00_analysis.Rmd
+From http://www.github.com/scleveland/git_workshop
+   ef6c217..923cb03   main     -> origin/main
+Auto-merging 00_analysis.py
+CONFLICT (content): Merge conflict in 00_analysis.py
 Automatic merge failed; fix conflicts and then commit the result.
 
 ```
@@ -219,10 +219,10 @@ case let's choose the pink 'our changes'. Now:
 Notice how git has automatically added information to the commit message:
 
 ```
-Merge branch 'master' of https://www.github.com/milesmcbain/git_workshop
+Merge branch 'main' of https://www.github.com/scleveland/git_workshop
 
 # Conflicts:
-#       00_analysis.Rmd
+#       00_analysis.py
 #
 # It looks like you may be committing a merge.
 # If this is not correct, please remove the file
@@ -232,7 +232,7 @@ Merge branch 'master' of https://www.github.com/milesmcbain/git_workshop
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
-# On branch master
+# On branch main
 ```
 
 Leave the message unchanged, save and close the file to complete the commit.
@@ -263,7 +263,7 @@ We got interesting data.
 
 To understand this you need one new piece of information: **HEAD** is a
 reference which refers to the last commit on the current local branch, so HEAD
-is the last thing we committed to master. The other really long ugly string is
+is the last thing we committed to main. The other really long ugly string is
 the full hash of the commit on the remote.
 
 So to resolve the conflict in plain text, we delete the fencing and replace the

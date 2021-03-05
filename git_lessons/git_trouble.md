@@ -26,7 +26,7 @@ You an call the `git commit` command with the `--amend` flag and any staged
 files will be added to the previous commit and you will be given a chance to
 rewrite the commit message.
 
-### Your first amendment {.exercise} 
+### Your first amendment {.exercise}
 
 Using the 'git_workshop' repository from previous lessons:
 
@@ -126,7 +126,7 @@ longer points to a commit on the branch's timeline.
 We can't use `git checkout HEAD` as before to return to present because HEAD is no longer on any timeline. So we need to put HEAD back on a timeline using:
 
 ```
-git checkout master
+git checkout main
 ```
 Where HEAD will be pointing to the latest commit by default.
 

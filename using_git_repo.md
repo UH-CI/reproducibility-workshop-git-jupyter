@@ -7,7 +7,7 @@
 * How do I syncronise the history with GitHub?
 
 ## Objectives
-* Understand the PC configuration required to use a git repository 
+* Understand the PC configuration required to use a git repository
 * Understand how to create a local copy of a GitHub repository.
 * Understand the conceptual areas: working tree, staging area
 * Understand the basic update workflow: add to staging, commit with message, push to origin
@@ -80,7 +80,7 @@ scroll with the arrow keys or by paging, and quit with 'q'.
 Cloning is the process of creating a local copy of a remote repository, like one
 hosted on GitHub. Before we clone a repository, think about where you will
 clone it to. You might like to create yourself a `repos` folder in your home
-folder. 
+folder.
 
 To clone a repository use the `clone` command followed by 2 arguments:
 
@@ -149,7 +149,7 @@ You make changes to files in the repository as you normally would with any file
 on your computer. Those changes are saved on your computer but they are not
 recorded in your repository until they are **committed**. A **commit** is a
 record of related (usually) changes with associated metadata about like author,
-time, date, and reason for change. 
+time, date, and reason for change.
 
 A commit is not a snapshot. It is a delta. Only what changed is recorded.
 Therefore a single commit is not enough to recover a repository. You need all
@@ -176,12 +176,12 @@ from within our freshly cloned repository we get:
 
 ```
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-Which tells us: 
+Which tells us:
 
   * our local branch
   * our repository status with respect to our remote branch history
@@ -193,7 +193,7 @@ Which tells us:
 You can think of branches as parallel timelines in your repository history.
 Branches become necessary as the size of the team and project grows. For this
 lesson all you need to know is that when you create and clone a repository from
-GitHub its history contains only one timeline: a **branch** called **master**.
+GitHub its history contains only one timeline: a **branch** called **main**.
 
 ### Introducing changes
 
@@ -213,8 +213,8 @@ Running `git status` again should produce different output along the lines of:
 
 ```
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -224,15 +224,15 @@ Changes not staged for commit:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	analysis.Rmd
+	analysis.py
     data.csv
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Some things of note: 
+Some things of note:
 
-* Our master branch is still up-to-date with the remote repository branch
+* Our main branch is still up-to-date with the remote repository branch
   'origin/maser' - no commits have been made.
 * git is suggesting commands we could use from here: `add`, `checkout`, and `commit`.
 * git has detected README.md was modified.
@@ -357,8 +357,8 @@ this text:
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
-# On branch master
-# Your branch is up-to-date with 'origin/master'.
+# On branch main
+# Your branch is up-to-date with 'origin/main'.
 #
 # Changes to be committed:
 #       modified:   README.md
@@ -387,15 +387,15 @@ To complete the commit you must:
 After you close the file git will return some output to your terminal:
 
 ```
-$ git commit 
-[master c6766f1] added analysis source and dataset
+$ git commit
+[main c6766f1] added analysis source and dataset
  3 files changed, 2 insertions(+), 1 deletion(-)
- create mode 100644 analysis.Rmd
+ create mode 100644 analysis.py
  create mode 100644 data/data.csv
 ```
 
-`[master c6766f1]` tells us a commit with a hash matching `c6766f1` was added to
-our master branch. Your hash will be different as they are intended to uniquely
+`[main c6766f1]` tells us a commit with a hash matching `c6766f1` was added to
+our main branch. Your hash will be different as they are intended to uniquely
 identify the commit. The hashes come in useful when we need to recover past
 versions.
 
@@ -407,13 +407,13 @@ It is possible to complete a commit without editing a file in a text editor. The
 $ git commit -m "a short commit message"
 ```
 
-There are two drawbacks with this approach: 
+There are two drawbacks with this approach:
 
 1. You do not get the final opportunity to see what is staged and what branch
    you are on which can be helpful in avoiding mistakes.
 1. You are discouraged from writing detailed commit messages since typing into
    the terminal on a single line is cumbersome.
-   
+
 It can be faster though so it might be great for your pattern of use.
 
 ### Post commit status
@@ -422,8 +422,8 @@ Finally let's check the status of the repository:
 
 ```
 $ git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 nothing to commit, working tree clean
 
@@ -431,7 +431,7 @@ nothing to commit, working tree clean
 
 As we add commits to our local repository it moves ahead of the remote
 repository. Git is suggesting that we probably want to push our commits to
-GitHub ('origin/master'), and indeed that is the next step.
+GitHub ('origin/main'), and indeed that is the next step.
 
 
 ## Push - sending commits to GitHub
@@ -442,7 +442,7 @@ Most common usage of the push command is:
 $ git push
 ```
 
-With a working directory that is a child of a git repository. 
+With a working directory that is a child of a git repository.
 
 This will cause all our new local commits to be sent to all configured remote
 repositories. In the case of our repository, it came configured with a single
@@ -458,21 +458,21 @@ but you will likely never use them.
 If we push our current commit we see:
 
 ```
-$ git push 
+$ git push
 Counting objects: 5, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (5/5), 419 bytes | 0 bytes/s, done.
 Total 5 (delta 0), reused 0 (delta 0)
-To https://www.github.com/milesmcbain/git_workshop.git
-   fef3706..ead4b25  master -> master
+To https://www.github.com/scleveland/git_workshop.git
+   fef3706..ead4b25  main -> main
 
 ```
 
-**Note***:  You will be asked for your GitHub username as password at this point. 
+**Note***:  You will be asked for your GitHub username as password at this point.
 
-* MacOS and Linux users, type them into the terminal prompts. 
-* Windows users, a popup will appear - Enter your details and click 'Login' 
+* MacOS and Linux users, type them into the terminal prompts.
+* Windows users, a popup will appear - Enter your details and click 'Login'
 
 ### GitHub history {.exercise}
 
