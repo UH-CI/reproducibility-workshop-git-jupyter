@@ -138,7 +138,7 @@ In this exercise you will figure out how to use arguments and flags together.
 
 1. Using the flags you've seen so far, experiment to determine what order the
    flags have to be in.
-2. Create a command that lists all the contents of your 'Documents' folder in
+2. Create a command that lists all the contents of your 'examples' folder in
    long format.
 
 #### One flag to rule them all {.exercise}
@@ -267,7 +267,7 @@ touch output.csv
 
 They don't need to contain anything.
 
-Let's say we want to move the .Rmd file to the scripts folder. We can use the `mv` command to **move** files or folders. `mv` takes two arguments, the first being files or folders to move and
+Let's say we want to move the .py file to the scripts folder. We can use the `mv` command to **move** files or folders. `mv` takes two arguments, the first being files or folders to move and
 the second being the path to move then to. Our command would look like:
 
 ```
