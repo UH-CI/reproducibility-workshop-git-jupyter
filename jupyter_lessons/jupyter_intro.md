@@ -35,12 +35,13 @@ There has been considerable development by both Project Jupyter and external col
 ### To run on Mana:
 
 Login to Mana at https://mana.its.hawaii.edu and from the menu select  "interactive app" and choose a jupyter notebook.  The default form fields will work for this workshop - if in the future you need more time or resources you can adjust.
-
+<img src="../../images/mana_interactive_apps.png" style="width: 500px;"/>
 ##### Starting the notebook on Mana
-
+After launching the interactive jupyter notebook application you will see your "interactive job" with a status of starting.
+<img src="../../images/mana_starting.png" style="width: 500px;"/>
+Once the job is running on a compput node a button will appear for you to click which will then open a browser tab with your running jupyter session.
+<img src="../../images/mana_running.png" style="width: 500px;"/>
 #### To run on your own machine:
-
-After launching the interactive jupyter notebook application you will see your "interactive job" with a status of starting, once the job is running on a compput node a button will appear for you to click which will then open a browser tab with your running jupyter session.
 
 Make sure you have installed [Anaconda](https://www.anaconda.com/download/) and [Anaconda navigator](https://anaconda.org/anaconda/anaconda-navigator)
 
@@ -57,7 +58,7 @@ Jupyter starts in your default browser at the address [http://localhost:8888/tre
 
 When clicking on "New" (right hand side) as shown on the Figure below:
 
-<img src="../../images/jupyter_tree.png"/>
+<img src="../../images/jupyter-server.png"/>
 
  You should be able to select:
 - **Folder**: to create a new folder
@@ -70,14 +71,10 @@ When clicking on "New" (right hand side) as shown on the Figure below:
 
 For now, the most important is to be able to start a new jupyter notebook. We will now look into jupyter dashboards and we will learn more about jupyter notebook/dashboard later in this lesson.
 
-> ## Default browser
->  You may need to change the default browser for starting your jupyter notebook. All the examples in this lesson have been tested with [Google chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKCAiA15vTBRAHEiwA7Snfc8Ly7Kz3VH-sKSABkCHsiAhviP1ZJzyzV5wUPasjHs27d_0PcESFkhoCOskQAvD_BwE)
-{: .callout}
-
 
 # Why are Jupyter Notebooks a powerful tool for conducting reproducible research?
 
-The main advantages of both Jupyter notebookand python are:
+The main advantages of both Jupyter notebook and python are:
 
 - Free!
 - Open source
