@@ -23,7 +23,7 @@ of a military. A supreme commander accepts code changes from a few trusted
 generals, who in turn accept code changes from a few trusted lieutenants and so
 on. This would not be possible with a centralised model.
 
-Torvalds sarcastically quipped about the name git (which means "unpleasant person" in British English slang): "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."[23][24] The man page describes Git as "the stupid content tracker".[25] The read-me file of the source code elaborates further:[26]
+Torvalds sarcastically quipped about the name git (which means "unpleasant person" in British English slang): "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'." The man page describes Git as "the stupid content tracker". The read-me file of the source code elaborates further:
 
 "git" can mean anything, depending on your mood.
 
