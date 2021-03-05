@@ -173,7 +173,7 @@ to commit imminently. You might have made many changes for varying reasons, so
 it makes sense to group them into commits related to the reason. You place files
 to be committed together in the staging area which feeds into your next commit.
 
-<img src="../../images/git-flow.png" style="width: 500px;"/>
+<img src="../../images/git-flow.png" style="width: 100%;"/>
 
 As you make commits, your local repository moves ahead of the remote repository
 (GitHub). You **push** your new commits to the remote to bring its history up to the
@@ -209,7 +209,7 @@ Branches become necessary as the size of the team and project grows. For this
 lesson all you need to know is that when you create and clone a repository from
 GitHub its history contains only one timeline: a **branch** called **master** NOTE most are moving to **main** replacing the outdated term master.
 
-<img src="../../images/git_branches.PNG" style="width: 500px;"/>
+<img src="../../images/git_branches.PNG" style="width: 100%;"/>
 Example from the Tapis Streams API repository where multiple branch are in development in parallel and merge into dev then stagin and finally to a production branch.
 
 ### Introducing changes
