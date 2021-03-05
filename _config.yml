@@ -5,8 +5,9 @@ nav:
   - Welcome and Background:
     - Welcome: ./introduction
   - Intro to GIT:
-    - Intro to Command Line and GIT: git_lessons/git_command_line
-    - GIT Creating: git_lessons/git_repo_create
+    - Intro to Command Line: git_lessons/git_command_line
+    - GIThub Creating: git_lessons/git_repo_create
+    - GIT on Command Line: git_lessons/using_git
     - Work GIT - Workflow: git_lessons/git_workflow
     - GITing Out of Trouble: git_lessons/git_trouble
     - GIT More: git_lessons/git_more
