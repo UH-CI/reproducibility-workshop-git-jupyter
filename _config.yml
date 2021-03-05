@@ -3,12 +3,12 @@ remote_theme: marella/jekyll-theme-documentation
 permalink: pretty
 nav:
   - Welcome and Background:
-    - Welcome: introduction
+    - Welcome: ./introduction
   - Intro to GIT:
     - Intro to Command Line and GIT: git_lessons/git_command_line
-    - Creating GIT repositories: git_lessons/git_repo_create
-    - GIT workflow: git_lessons/git_workflow
-    - Troubleshooting GIT: git_lessons/git_trouble
+    - GIT Creating: git_lessons/git_repo_create
+    - Work GIT - Workflow: git_lessons/git_workflow
+    - GITing Out of Trouble: git_lessons/git_trouble
     - GIT More: git_lessons/git_more
   - Intro to Juypter Notebooks and reproducibility:
     - Intro to Jupyter: jupyter_lessons/jupyter_intro
