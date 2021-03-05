@@ -143,7 +143,7 @@ In this exercise you will figure out how to use arguments and flags together.
 
 #### One flag to rule them all {.exercise}
 
-Most commands can give you useage information about what kinds of flags and
+Most commands can give you usage information about what kinds of flags and
 arguments they support if you call them with the flag `--help`, sometimes `-h`
 will work also.
 
@@ -159,8 +159,8 @@ Answer the following:
 The command `cd` **changes** the working **directory**. To use it type `cd`
 followed by an argument which is the path of the folder to change to. The path
 can be either 'absolute' or 'relative'. For example, assuming the current
-working directory is the user's home (`/home/miles`), to change directory to
-their Downloads we could do either of these:
+working directory is the user's home (`/home/seanbc`), to change directory to
+their examples we could do either of these:
 
 ```
 [seanbc@login002 ~]$ cd examples
