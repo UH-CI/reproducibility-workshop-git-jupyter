@@ -39,37 +39,16 @@ Login to Mana at https://mana.its.hawaii.edu and from the menu select  "interact
 ##### Starting the notebook on Mana
 After launching the interactive jupyter notebook application you will see your "interactive job" with a status of starting.
 <img src="../../images/mana_starting.PNG" style="width: 500px;"/>
-Once the job is running on a compput node a button will appear for you to click which will then open a browser tab with your running jupyter session.
+Once the job is running on a compute node a button will appear for you to click which will then open a browser tab with your running jupyter session.
 <img src="../../images/mana_running.PNG" style="width: 500px;"/>
-#### To run on your own machine:
 
-Make sure you have installed [Anaconda](https://www.anaconda.com/download/) and [Anaconda navigator](https://anaconda.org/anaconda/anaconda-navigator)
+We can start a python notebook or a terminal session by clicking on "New" (right hand side) as shown on the Figure below:
 
+<img src="../../images/jupyter-server.PNG"/>
 
-##### Start jupyter notebook on your Machine
-
-We want to start a new jupyter notebook using our newly created conda environment. To select "jupyter_dashboards_workshop" conda environment:
-
-- Click on "Home" (left menu)
-- Select "jupyter_dashboards_workshop" in "Applications on"
-- Launch jupyter notebook ("Launch" button)
-
-Jupyter starts in your default browser at the address [http://localhost:8888/tree](http://localhost:8888/tree) and shows the tree (directories) from the root directory (here is root directory is to be understood from the installation location of Anaconda). It may vary from one laptop to another but you should not worry about it.
-
-When clicking on "New" (right hand side) as shown on the Figure below:
-
-<img src="../../images/jupyter-server.png"/>
-
- You should be able to select:
-- **Folder**: to create a new folder
-- rename it "workshop_dashboards": select it (tick box) and click on "rename". A new window should pop up where you can enter the new name for your Folder.
-- Click on "workshop_dashboards" to enter the newly created directory
 - Click on "New" but this time select "Notebook" Python 3
 
-
-<img src="../../images/jupyter-notebook.png" style="width: 800px;"/>
-
-For now, the most important is to be able to start a new jupyter notebook. We will now look into jupyter dashboards and we will learn more about jupyter notebook/dashboard later in this lesson.
+<img src="../../images/jupyter-notebook.PNG" style="width: 800px;"/>
 
 
 # Why are Jupyter Notebooks a powerful tool for conducting reproducible research?
