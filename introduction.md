@@ -95,8 +95,8 @@ These are rather vague statements and we need tools to help overcome the technic
 - Math support to write complex formulas
 - Multiple output formats: one document but several output formats i.e. can produce on demand (jupyter notebook, HTML, LaTeX, pdf, etc. with no effort
 - Linking data (whether they are archived in <a href="https://zenodo.org/">Zenodo</a> or another Data Archive)
-- Linking to Software programs (user programs for instance stored on <a href="https://www.github.com">GitHub</a> or pre-compiled open-source, etc.)
-- Linking to people (social media such as Twitter, facebook, etc.)
+- Linking to Software programs (user programs for instance stored on <a href="https://www.github.com">GitHub</a>, pre-compiled open-source or containers(this is a topic for another workshop) etc.)
+- Linking to people (social media such as ORCID, ResearchGate, LinkedIn, etc.)
 - Receive credits for my research (citation)
 - Commenting and possibility to add additional information (additional plots, video, sound, programs, explanation, etc.)
 - Interactive figures allowing other researchers to explore my data.
