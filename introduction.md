@@ -14,22 +14,6 @@ To make your research reproducible you need:
 
 # Why is it important to be reproducible?
 
-> ## Is there a reproducibility crisis in Science?
->
-> - Go to [socrative](https://socrative.com/)
-> - Select tab "STUDENT LOGIN"
-> - Use the Room Name given by the intructor (check the etherpad too)
-> - Discuss with your neighbors
-> - Answer to the question "*Is there a reproducibility crisis in Science?*"
->
-> > ## Solution
-> > - Analyze and discuss the results you got in your classroom.
-> > - Watch the short video entitled "[Is there a reproducibility crisis in science?](https://www.youtube.com/watch?v=j7K3s_vi_1Y)" published by Nature.
-> > <iframe width="560" height="315" src="https://www.youtube.com/watch?v=j7K3s_vi_1Y" frameborder="0" allowfullscreen></iframe>
-> > - Did you get similar results?  
-> {: .solution}
-{: .challenge}
-
 Being able to reproduce results is becoming increasingly important to:
 
 - confirm that results are indeed correct
