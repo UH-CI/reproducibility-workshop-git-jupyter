@@ -53,7 +53,7 @@ To see how push works we have to commit and push some changes in
 
   1. Change into the 'other_git_workshop' folder with `cd`
   1. Open the 'other_git_workshop' folder in Atom
-  1. In Atom, add a line to '00_analysis.py' that says 'We got data.'
+  1. In an editro, add a line to '00_analysis.py' that says 'We got data.'
   1. In your terminal, stage the change to '00_analysis.py' with `git add`
   1. Commit the change to '00_analysis.py' with `git commit` using an informative commit message
   1. Push your commit with `git push`
