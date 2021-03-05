@@ -13,4 +13,4 @@ nav:
     - GITing Out of Trouble: git_lessons/git_trouble
   - Intro to Juypter Notebooks and reproducibility:
     - Intro to Jupyter: jupyter_lessons/jupyter_intro
-    - Publishing or Archiving: jupyter_lessons/archiving
+    - Publishing and Archiving: jupyter_lessons/archiving
