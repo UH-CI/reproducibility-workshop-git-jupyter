@@ -129,7 +129,7 @@ In your terminal:
 Here is some sample output:
 
 ```
-miles@miles-macbook:~/repos$ git clone https://www.github.com/milesmcbain/git_workshop.git
+seanbc@node0001:~/repos$ git clone https://www.github.com/scleveland/git_workshop.git
 Cloning into 'git_workshop'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
@@ -173,6 +173,8 @@ The **staging area** is a conceptual area where you can place changes you plan
 to commit imminently. You might have made many changes for varying reasons, so
 it makes sense to group them into commits related to the reason. You place files
 to be committed together in the staging area which feeds into your next commit.
+
+<img src="../../images/git-staging-area.svg" style="width: 500px;"/>
 
 As you make commits, your local repository moves ahead of the remote repository
 (GitHub). You **push** your new commits to the remote to bring its history up to the
