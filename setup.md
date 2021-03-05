@@ -15,6 +15,6 @@ Once the job is running on a compput node a button will appear for you to click 
 
 We can start a terminal session by clicking on "New" (right hand side) as shown on the Figure below:
 
-<img src="../../images/jupyter-server.PNG"/>
+<img src="../images/jupyter-server.PNG"/>
 
 With the terminal session running we can proceed to the Git exercises.
