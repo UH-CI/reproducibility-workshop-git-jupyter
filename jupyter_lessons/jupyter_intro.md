@@ -3,14 +3,14 @@
 
 Jupyter notebook, formerly known as [IPython](https://ipython.org/) notebook (or Interactive Python), is a flexible and powerful open source research tool that can help you keep a narrative of your coding process. The name Jupyter is an acronym of the three core languages it was designed for: [JUlia](https://julialang.org/), [PYThon](https://www.python.org/), and [R](https://www.r-project.org/). Project Jupyter supports interactive data science and scientific computing across more than 40 programming languages.
 
-<img src="../images/Jupyter_logo.PNG" style="width: 500px;"/>
+<img src="../../images/Jupyter_logo.PNG" style="width: 500px;"/>
 <center><font size="2">https://jupyter.org/</font></center>
 
 ## Jupyter as Coding Diary
 
 You can think of the notebook as a lab or field diary that keeps a detailed record of the steps you take as you develop scripts and programming workflows. Just as you would with a field notebook, it is important to develop good note-taking habits. This workshop is designed to impart a set of skills, tools, and best practices you can implement in your own research to enhance reprodubility, which will make modifications, collaboration, and publishing easier.
 
-<img src="../images/Field-Code_Notes.png" style="width: 750px;"/>
+<img src="../../images/Field-Code_Notes.png" style="width: 750px;"/>
 
 ## Jupyter Architecture
 
@@ -24,11 +24,11 @@ Jupyter also has some **back-end** processes, including the:
 3. **Kernel:** A separate process responsible for running user code. For the purposes of this workshop, we will be working on Python kernels, although Jupyter is capable of interfacing with other programming languages (R, Julia, etc) as well.
 4. **Notebook Server:** Communicates with kernel and routes the Python programming language to the web browser.
 
-<img src="../images/notebook_components.png" style="width: 500px;"/>
+<img src="../../images/notebook_components.png" style="width: 500px;"/>
 
 ## Jupyter Ecosystem
 There has been considerable development by both Project Jupyter and external collaborators that have yielded a multitude of options for Jupyter users. This diagram gives a sample of some of the possibilities.
-<img src="../images/Jupyter_ecosystem.png" style="width: 500px;"/>
+<img src="../../images/Jupyter_ecosystem.png" style="width: 500px;"/>
 
 ## Launch Jupyter notebook App
 
@@ -42,7 +42,7 @@ Login to Mana at https://mana.its.hawaii.edu and from the menu select  "interact
 
 After launching the interactive jupyter notebook application you will see your "interactive job" with a status of starting, once the job is running on a compput node a button will appear for you to click which will then open a browser tab with your running jupyter session.
 
-Make sure you have installed [Anaconda](https://www.anaconda.com/download/) and [Anaconda navigator](https://anaconda.org/anaconda/anaconda-navigator) 
+Make sure you have installed [Anaconda](https://www.anaconda.com/download/) and [Anaconda navigator](https://anaconda.org/anaconda/anaconda-navigator)
 
 
 ##### Start jupyter notebook on your Machine
@@ -57,7 +57,7 @@ Jupyter starts in your default browser at the address [http://localhost:8888/tre
 
 When clicking on "New" (right hand side) as shown on the Figure below:
 
-<img src="../images/jupyter_tree.png"/>
+<img src="../../images/jupyter_tree.png"/>
 
  You should be able to select:
 - **Folder**: to create a new folder
@@ -66,7 +66,7 @@ When clicking on "New" (right hand side) as shown on the Figure below:
 - Click on "New" but this time select "Notebook" Python 3
 
 
-<img src="../images/jupyter_notebook.png" style="width: 800px;"/>
+<img src="../../images/jupyter-notebook.png" style="width: 800px;"/>
 
 For now, the most important is to be able to start a new jupyter notebook. We will now look into jupyter dashboards and we will learn more about jupyter notebook/dashboard later in this lesson.
 
