@@ -143,17 +143,4 @@ Sharing your GitHub repository along with your jupyter notebooks/dashboards is a
 
 The next section (using <a href="https://github.com/jupyterhub/binderhub">Binder</a>) will show you how to make your research fully reproducible, offering users the same computational environment with no efforts.
 
-> ## Where to find more about GitHub
-> To learn more about GitHub you can review one or more of these additional (external) resources:
-> - GitHub Guide - [Hello World](https://guides.github.com/activities/hello-world/)
-> - All the [GitHub guides](https://guides.github.com)
-> - Hubspot [`git` and GitHub tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
-> - Plurlsight's [GitHub beginner's guide](https://www.pluralsight.com/blog/software-development/github-tutorial)
-> - Code School's [GitHub tutorial](https://www.codeschool.com/courses/mastering-github)
-{: .discussion}
-
-> ## More about Git version control
-> If you would like to learn about source code version control using the `git` software, the `git` in GitHub, please see these resources:
-> - Try this 15 minute interactive  [`git` tutorial](https://try.github.io/)
-> - Try some additional `git` exercises [here](https://gitexercises.fracz.com)
-{: .discussion}
+Go to MyBinder.org https://mybinder.org/ to see more about how to create an interactive computing environment form you github repositiory.
