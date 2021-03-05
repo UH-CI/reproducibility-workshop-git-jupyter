@@ -86,4 +86,4 @@ These are rather vague statements and we need tools to help overcome the technic
 - Interactive figures allowing other researchers to explore my data.
 - Possibility to easily archive my research work.
 
- The purpose of this lesson is to show you why Git and <a href="http://www.github.com">GitHub</a> associated with <a href="http://jupyter-dashboards-layout.readthedocs.io/en/latest/">Jupyter notebooks</a> and <a href="https://binderhub.readthedocs.io/en/latest/">Binder</a> are tools that fulfill most of our needs.
+ The purpose of this workshop is to show you why Git and <a href="http://www.github.com">GitHub</a> associated with <a href="http://jupyter-dashboards-layout.readthedocs.io/en/latest/">Jupyter notebooks</a> and <a href="https://binderhub.readthedocs.io/en/latest/">Binder</a> are tools that fulfill most of our needs. So you can say at this time, the combination of this data and this code produced these results - and here is what I did and why.
