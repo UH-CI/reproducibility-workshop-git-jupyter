@@ -42,10 +42,9 @@ opens really fast or one you always have open.
 #### Set up Atom {.exercise}
 
 The default editor, Vim, is often found to be difficult to use by beginners and is
-the subject of [numerous memes](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/). In this course we will use Atom, which we
-will have open most of the time. You can change this at a later stage.
+the subject of [numerous memes](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/). In this course we will use Jupyter since it has a GUI text editor and we are covering notebooks in the second section.
 
-Configure it like so:
+But if you wished to setup a default editor on your local machine Atom or VScode are two with aweseom Git/Github integrations. On your local machine you would configure like so:
 
 ```
 $ git config --global core.editor "atom --wait"
