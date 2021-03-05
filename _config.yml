@@ -4,6 +4,7 @@ permalink: pretty
 nav:
   - Welcome and Background:
     - Welcome: ./introduction
+    - Setup: ./setup
   - Intro to GIT:
     - Intro to Command Line: git_lessons/git_command_line
     - Github Creating: git_lessons/git_repo_create
