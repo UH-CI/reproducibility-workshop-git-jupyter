@@ -1,4 +1,4 @@
-remote_theme: UH-CI/edition-jekyll-template
+remote_theme: marella/jekyll-theme-documentation
 
 permalink: pretty
 nav:
