@@ -39,7 +39,7 @@ The text editor you configure here is the one git will open so you can write
 messages that explain your changes. Ideally it is an editor that
 opens really fast or one you always have open.
 
-#### Set up Atom {.exercise}
+#### Set up Editor {.exercise}
 
 The default editor, Vim, is often found to be difficult to use by beginners and is
 the subject of [numerous memes](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/). In this course we will use Jupyter since it has a GUI text editor and we are covering notebooks in the second section.
@@ -359,8 +359,7 @@ $ git commit
 ```
 
 Like `add` you can run this with your working directory set to any child folder
-of a git repository. The command will trigger a new window to open in Atom with
-this text:
+of a git repository. The command will trigger a the editor to open.
 
 ```
 # Please enter the commit message for your changes. Lines starting

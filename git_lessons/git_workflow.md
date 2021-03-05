@@ -202,17 +202,36 @@ changes affected the same line. Git is asking us to 'fix merge conflicts and
 commit the result'.
 
 ### Fixing merge conflicts
+A conflict appear like this:
 
-When a merge conflict happens git will place some markup inside the file to
-assist with resolving a conflict. Atom will see this and create a dialogue. If
-we check the contents of 'git_workshop/00_analysis.Rmd' in Atom we should see:
+```
+<<<<<<< HEAD
+We got exciting data.
+=======
+We got interesting data.
+>>>>>>> 3f6079ade2cf03e0f4c5c5bd7bec5101100cb51a
+```
 
-![](figs/atom_conflict.png)
+To understand this you need one new piece of information: **HEAD** is a
+reference which refers to the last commit on the current local branch, so HEAD
+is the last thing we committed to main. The other really long ugly string is
+the full hash of the commit on the remote.
 
-We resolve the conflict by clicking 'Use me' on the one we want to keep. In this
-case let's choose the pink 'our changes'. Now:
+So to resolve the conflict in plain text, we delete the fencing and replace the
+section with the text that we wish to use. Importantly, the text can:
 
-1. Save the file in Atom.
+* Use either version
+* Use both versions
+* Use neither version and contain completely new content.
+
+For example a valid way to resolve this conflict would be:
+
+```
+We got exciting data,
+We got interesting data.
+```
+
+1. Save the file.
 1. In the terminal, stage the file with `git add`.
 1. Commit the file with git `commit`
 
@@ -247,59 +266,15 @@ Now all that is left:
 The pull will succeed and the repositories are now both in sync with GitHub.
 Check this if you like.
 
-### Merging without Atom fanciness
-
-You can get rid off the merge assistance in Atom by right clicking on the
-conflict and selecting 'dismiss'. In plain text the conflict markup looks like
-this:
-
-```
-<<<<<<< HEAD
-We got exciting data.
-=======
-We got interesting data.
->>>>>>> 3f6079ade2cf03e0f4c5c5bd7bec5101100cb51a
-```
-
-To understand this you need one new piece of information: **HEAD** is a
-reference which refers to the last commit on the current local branch, so HEAD
-is the last thing we committed to main. The other really long ugly string is
-the full hash of the commit on the remote.
-
-So to resolve the conflict in plain text, we delete the fencing and replace the
-section with the text that we wish to use. Importantly, the text can:
-
-* Use either version
-* Use both versions
-* Use neither version and contain completely new content.
-
-For example a valid way to resolve this conflict would be:
-
-```
-We got exciting data,
-We got interesting data.
-```
-
-We'd save, stage and commit that and git would accept it as resolving the
-conflict.
 
 #### Manual Merge {.exercise}
 
 * In the same fashion as our example engineer a conflict by changing the same line in:
-  - 'other_git_workshop/00_analysis.Rmd'
-  - 'git_workshop/00_analysis.Rmd'
+  - 'other_git_workshop/00_analysis.py'
+  - 'git_workshop/00_analysis.py'
 
 * Commit and push one before committing and pushing the other.
-* This time resolve the conflicted file in plain text by dismissing the atom merge help (right click 'dismiss').
-
-### On Automatic Merging
-
-In the case where git can automatically interleave the remote and the local
-branches without running into conflicts, it will still prompt you for a commit
-message, which will be auto populated with `merging <remote branch>...` in
-similar way to the manual examples. It is automatically creating a commit
-called, sometimes called a 'merge commit' to mark the merging of the branches in
-the history.
+* Resolve the conflicted.
 
 ## Using merge tools
 

@@ -15,7 +15,7 @@ In this lesson we'll cover just a few of the ways you can get yourself out of tr
 
 There are other great resources on this topic, see:
 
-  * [OhShitGit](https://ohshitgit.com/)
+  * [OhS**tGit](https://ohshitgit.com/)
   * [Getting Unstuck from Git](http://inundata.org/lectures/git/#/)
 
 ## Fixing a previous commit
@@ -30,9 +30,9 @@ rewrite the commit message.
 
 Using the 'git_workshop' repository from previous lessons:
 
-1. Open 00_analysis.Rmd in Atom and insert a new line: "part one"
+1. Open 00_analysis.py in a text editor and insert a new line: "part one"
 1. On the terminal, Save, stage, and commit the file with commit messge "added part one"
-1. In Atom, add a new line in 00_analysis.Rmd: "part two"
+1. In a text editor, add a new line in 00_analysis.py: "part two"
 1. Save and stage the file.
 1. Amend the commit as described above.
 1. Push the commit.

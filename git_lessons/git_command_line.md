@@ -1,7 +1,7 @@
 # Command Line Basics
 Materials Adapted from https://github.com/MilesMcBain/git_4_sci
 
-In this session will introduce the command line as a general concept and learn a few commands that are complimentary to git. 
+In this session will introduce the command line as a general concept and learn a few commands that are complimentary to git.
 
 ### Questions
 * What is the shell, command line, or terminal?
@@ -60,7 +60,7 @@ We will use Mana's Open OnDemand terminal - access Mana at https://mana.its.hawa
 prompt that looks like this:
 
 ```
-[seanbc@login002 ~]$ 
+[seanbc@login002 ~]$
 ```
 
 Type the command `pwd`, for 'print working directory', and
@@ -70,16 +70,16 @@ currently looking. It should return text to the terminal like so:
 ```
 [seanbc@login002 ~]$  pwd
 /home/seanbc
-[seanbc@login002 ~]$ 
+[seanbc@login002 ~]$
 ```
 
 The output can be interpreted like so:
 
 ```
-/ --            # Root of directory structure 
-   | 
+/ --            # Root of directory structure
+   |
    home --      # Home folder
-        | 
+        |
         seanbc  # user's individual home folder - working directory
 ```
 
@@ -93,7 +93,7 @@ list the contents of our examples folder like so:
 ```
 [seanbc@login002 ~]$  ls examples
 slurm
-[seanbc@login002 ~]$ 
+[seanbc@login002 ~]$
 ```
 
 'examples' is an **argument** to the `ls` command. We pass commands arguments
@@ -167,7 +167,7 @@ their Downloads we could do either of these:
 [seanbc@login002 examples]$
 
 [seanbc@login002 ~]$ cd /home/seanbc/examples
-[seanbc@login002 examples]$ 
+[seanbc@login002 examples]$
 ```
 
 A path that starts with `/` is assumed to be absolute. Paths that do not are
@@ -191,7 +191,7 @@ anywhere:
 
 ```
 [seanbc@login002 ~]$ cd .
-``` 
+```
 
 and these are equivalent:
 
@@ -210,7 +210,7 @@ directory tree e.g.:
 [seanbc@login002 ~]$ cd ~
 [seanbc@login002 ~]$ cd examples
 [seanbc@login002 examples]$ cd ../examples
-[seanbc@login002 examples]$ 
+[seanbc@login002 examples]$
 ```
 
 We moved 'sideways' to a folder at the same level.
@@ -225,7 +225,7 @@ cd ~/../../..
 
 ## Manipulating the Filesystem
 
-The shell provides commands to create, move, and delete folders and files. 
+The shell provides commands to create, move, and delete folders and files.
 
 ### Creating Folders
 Let' create an example project folder from the command line:
@@ -265,7 +265,7 @@ touch paper.pdf
 touch output.csv
 ```
 
-They don't need to contain anything. 
+They don't need to contain anything.
 
 Let's say we want to move the .Rmd file to the scripts folder. We can use the `mv` command to **move** files or folders. `mv` takes two arguments, the first being files or folders to move and
 the second being the path to move then to. Our command would look like:
@@ -300,7 +300,7 @@ Be sure to check your result using `ls`.
 ### Wildcards and Manipulations
 
 Now we're going to see how we can use wildcards to perform actions on many
-files or folders at once. A wildcard is the the `*` symbol, and it can be used to provide file system arguments that match patterns. 
+files or folders at once. A wildcard is the the `*` symbol, and it can be used to provide file system arguments that match patterns.
 
 For example, lets say we want to list all the data files in the current folder:
 

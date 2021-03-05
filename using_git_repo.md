@@ -201,13 +201,10 @@ Now we'll introduce some changes and see how the status changes. Let's do the
 following:
 
 1. Create a new folder called 'data' in our repository with `mkdir`
-2. Create a new file in the repository called 'analysis.Rmd' with Atom
+2. Create a new file in the repository called 'analysis.py' with Atom
 2. Create a new file in the repository called 'data.csv' with Atom.
 3. Change the first line of text under the header in README.md to: "Just gitting started!"
 
-This is what Atom should look like when we're done:
-
-![](figs/atom_changes.png)
 
 Running `git status` again should produce different output along the lines of:
 
@@ -350,8 +347,7 @@ $ git commit
 ```
 
 Like `add` you can run this with your working directory set to any child folder
-of a git repository. The command will trigger a new window to open in Atom with
-this text:
+of a git repository. The command will trigger a editor to open with the following text:
 
 ```
 
