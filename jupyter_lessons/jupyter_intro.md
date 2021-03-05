@@ -3,7 +3,7 @@
 
 Jupyter notebook, formerly known as [IPython](https://ipython.org/) notebook (or Interactive Python), is a flexible and powerful open source research tool that can help you keep a narrative of your coding process. The name Jupyter is an acronym of the three core languages it was designed for: [JUlia](https://julialang.org/), [PYThon](https://www.python.org/), and [R](https://www.r-project.org/). Project Jupyter supports interactive data science and scientific computing across more than 40 programming languages.
 
-<img src="../../images/Jupyter_logo.PNG" style="width: 500px;"/>
+<img src="../../images/Jupyter_logo.PNG" style="width: 100%;"/>
 <center><font size="2">https://jupyter.org/</font></center>
 
 ## Jupyter as Coding Diary
@@ -24,23 +24,23 @@ Jupyter also has some **back-end** processes, including the:
 3. **Kernel:** A separate process responsible for running user code. For the purposes of this workshop, we will be working on Python kernels, although Jupyter is capable of interfacing with other programming languages (R, Julia, etc) as well.
 4. **Notebook Server:** Communicates with kernel and routes the Python programming language to the web browser.
 
-<img src="../../images/notebook_components.png" style="width: 500px;"/>
+<img src="../../images/notebook_components.png" style="width: 100%;"/>
 
 ## Jupyter Ecosystem
 There has been considerable development by both Project Jupyter and external collaborators that have yielded a multitude of options for Jupyter users. This diagram gives a sample of some of the possibilities.
-<img src="../../images/Jupyter_ecosystem.png" style="width: 500px;"/>
+<img src="../../images/Jupyter_ecosystem.png" style="width: 100%;"/>
 
 ## Launch Jupyter notebook App
 
 ### To run on Mana:
 
 Login to Mana at https://mana.its.hawaii.edu and from the menu select  "interactive app" and choose a jupyter notebook.  The default form fields will work for this workshop - if in the future you need more time or resources you can adjust.
-<img src="../../images/mana_interactive_apps.PNG" style="width: 500px;"/>
+<img src="../../images/mana_interactive_apps.PNG" style="width: 100%;"/>
 ##### Starting the notebook on Mana
 After launching the interactive jupyter notebook application you will see your "interactive job" with a status of starting.
-<img src="../../images/mana_starting.PNG" style="width: 500px;"/>
+<img src="../../images/mana_starting.PNG" style="width: 100%;"/>
 Once the job is running on a compute node a button will appear for you to click which will then open a browser tab with your running jupyter session.
-<img src="../../images/mana_running.PNG" style="width: 500px;"/>
+<img src="../../images/mana_running.PNG" style="width: 100%;"/>
 
 We can start a python notebook or a terminal session by clicking on "New" (right hand side) as shown on the Figure below:
 
