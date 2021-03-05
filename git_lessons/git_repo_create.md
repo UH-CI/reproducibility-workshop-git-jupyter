@@ -7,7 +7,7 @@
 * How can I get a copy of the repository I can modify on my computer?
 
 ## Objectives
-* Understand options for creating a repository on GitHub. 
+* Understand options for creating a repository on GitHub.
 * Understand how to clone a local copy repository from GitHub.
 
 ## Git vs GitHub
@@ -22,6 +22,14 @@ Git was developed for the Linux Kernel project which has a structure reminiscent
 of a military. A supreme commander accepts code changes from a few trusted
 generals, who in turn accept code changes from a few trusted lieutenants and so
 on. This would not be possible with a centralised model.
+
+Torvalds sarcastically quipped about the name git (which means "unpleasant person" in British English slang): "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."[23][24] The man page describes Git as "the stupid content tracker".[25] The read-me file of the source code elaborates further:[26]
+
+"git" can mean anything, depending on your mood.
+
+* random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronunciation of "get" may or may not be relevant.
+* stupid. contemptible and despicable. simple. Take your pick from the dictionary of slang.
+* "global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
 
 GitHub hosts git repositories, that act as central repositories that users
 synchronise with. But even this mode is more flexible than a traditional
@@ -48,7 +56,7 @@ GitHub. In this lesson we will use the 'GitHub first' approach described by
 1. Clone the GitHub repository to your PC, making a 'local copy'.
 1. Commit changes to local copy and push to GitHub.
 
-### Creating a reposity on github.com
+### Creating a repository on github.com
 
 The two key things we'll need to decide when creating a repository are what the
 repository shall be called, and whether it shall be public or private.
@@ -72,7 +80,7 @@ GitHub has social network type features that allow users to follow eachother and
 see when someone they follow creates or 'stars' a public repository. Starring is
 similar to 'liking' on other platforms. It is possible to take advantage of
 these features to get your work noticed, but this depends on your work being
-public. 
+public.
 
 A repository's public/private status can be changed at any time. If you are open
 to collaborations or feedback arising from your work you probably want to make
@@ -85,7 +93,7 @@ In a minute we'll create a repository but before that you should follow some
 people so you can see what the GitHub activity stream looks like.
 
 1. Exchange GitHub usernames with a couple of your neighbours.
-1. With each username: 
+1. With each username:
     1. Type the username into the search box at the top left of the menu
     1. In the results, click the 'Users' link of the left of screen.
     1. Click the 'Follow' button associated with the username you searched for.

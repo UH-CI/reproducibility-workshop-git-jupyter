@@ -2,7 +2,7 @@
 
 ## Questions
 * How do I bring down commits I pushed to GitHub at work to my home PC, or vice versa?
-* What happens when files on GitHub conflict with what I have committed locally? 
+* What happens when files on GitHub conflict with what I have committed locally?
 
 ## Objectives
 * Understand how to pull down commits pushed on another computer to my local copy.
@@ -22,9 +22,9 @@ can go wrong.
 We can simulate another computer in the mix by creating a second local copy of
 your repository on your current computer.
 
-#### Clone a second local copy {.exercise}
+#### Clone a local copy {.exercise}
 
-1. In your browser, get the url for your repository.
+1. In your browser, get the url for your repository in github.
 1. In you terminal, use the `git clone` command to clone your repository to a
    new folder with the name 'other_git_workshop'
   - The form of the command will be `git clone <URL> <Path to folder>`
@@ -39,9 +39,9 @@ To be clear you should now have 2 local copies:
   * 'git_workshop' - the one we initially cloned in a previous lesson.
   * 'other_git_workshop' - the one we just cloned, simulating a copy on a second
     computer.
-  
+
 Both of these reference the same GitHub repository.
-  
+
 ## Simplest case: Pulling commits pushed from elsewhere
 
 We use the `git pull` command to pull commits from the remote repository to a
@@ -50,7 +50,7 @@ Similarly to `push`, they exist but it is likely you will never use them.
 
 To see how push works we have to commit and push some changes in
 `other_git_workshop`. Do this:
-  
+
   1. Change into the 'other_git_workshop' folder with `cd`
   1. Open the 'other_git_workshop' folder in Atom
   1. In Atom, add a line to '00_analysis.Rmd' that says 'We got data.'
@@ -137,7 +137,7 @@ The two things you can do to create problems are:
 
   * forgetting to pull and making commits
   * forgetting to push so when you do remember to pull next you get no new work.
-  
+
 Forgetting is inevitable, don't be too hard on yourself if it happens and don't
 panic. Git was built with conflict resolution in mind. The situation can be
 resolved and you won't lose work.
@@ -234,7 +234,7 @@ Merge branch 'master' of https://www.github.com/milesmcbain/git_workshop
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
 ```
- 
+
 Leave the message unchanged, save and close the file to complete the commit.
 This type of commit is called a 'merge commit'.
 
@@ -261,7 +261,7 @@ We got interesting data.
 >>>>>>> 3f6079ade2cf03e0f4c5c5bd7bec5101100cb51a
 ```
 
-To understand this you need one new piece of information: **HEAD** is a 
+To understand this you need one new piece of information: **HEAD** is a
 reference which refers to the last commit on the current local branch, so HEAD
 is the last thing we committed to master. The other really long ugly string is
 the full hash of the commit on the remote.
