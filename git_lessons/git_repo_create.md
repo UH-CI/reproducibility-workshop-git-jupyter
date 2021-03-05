@@ -105,6 +105,7 @@ people so you can see what the GitHub activity stream looks like.
 1. Choose 'git_workshop' as the repository name.
 1. Choose 'Public'.
 1. Check 'Initialize this repository with a README' <-- **IMPORTANT**
+1. Check 'Choose a license' <-- **IMPORTANT**
 1. Click 'Create repository'
 
 #### On the README
