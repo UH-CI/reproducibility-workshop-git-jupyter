@@ -30,6 +30,10 @@ Attendees will learn about how to git tools and jupyter notebooks in a way that 
 * Participants should bring their laptops and plan to participate actively.
 * Laptops will require a browser application for accessing the Mana Open OnDemand instance
 
+## Materials
+
+https://uh-ci.github.io/reproducibility-workshop-git-jupyter
+
 ## Schedule
 
 ## Firday March 5th, 2021
